@@ -61,6 +61,7 @@ function mapDispatchToProps(dispatch){
         }
         ,
         updateSkin:(skinCd)=>{
+            console.log("Hameed")
             return dispatch({type:taskActions.UPDATE_SKIN,payload:skinCd})
         }
     }
